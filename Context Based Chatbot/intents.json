@@ -1,0 +1,896 @@
+{
+  "intents": [
+    {
+      "tag": "EmailGrubunaKisiEklenmesi",
+      "patterns": [
+        "Maile birini dahil etmek",
+        "E-postaya kişi eklemek",
+
+        "Emaile grubuna kişi eklenmesi",
+        "Eposta grubuna birini dahil etmek",
+
+        "Email grubuna kişi eklemek istiyorum.",
+        "Eposta grubuna birini eklemek istiyorum.",
+
+        "Mail grubuna nasıl birini ekleyebilirim ?",
+        "Email grubuna nasıl kişi ekleyebilirim ?"
+      ],
+      "responses": [
+        "E-mail grubuna kişi eklenmesi ile ilgili link aşağıdadır.",
+        "Sanırım E-mail grubuna kişi eklemek istiyorsunuz. İlgili link aşağıdadır.",
+        "Mail grubunuza kişi eklenmesi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "EmailGrubundanKisiSilinmesi",
+      "patterns": [
+        "Mailden kişi silmek",
+        "Email kişi silmek",
+
+        "Mail gruptan kişi silmek",
+        "Eposta gruptan kişi silmek",
+
+        "Email grubundan bir kişi silmek istiyorum.",
+        "E-posta grubundan bir kişi silmek istiyorum.",
+
+        "Mail grubundan nasıl birini silebilirim ?",
+        "Email grubundan nasıl birini silebilirim ?"
+      ],
+      "responses": [
+        "E-mail grubundan kişi silinmesi ile ilgili link aşağıdadır.",
+        "Sanırım E-mail grubundan kişi silmek istiyorsunuz. İlgili link aşağıdadır.",
+        "Mail grubundan kişi silinmesi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "EmailHesabiAcilmasi",
+      "patterns": [
+        "Mail hesabı açmak",
+        "Email hesabı açmak",
+
+        "Email hesabı açmak istiyorum.",
+        "Eposta hesabı açmak istiyorum.",
+
+        "Nasıl mail hesabı açabilirim ?",
+        "Nasıl email hesabı açabilirim ?"
+      ],
+      "responses": [
+        "E-mail hesabı açılması ile ilgili link aşağıdadır.",
+        "Sanırım E-mail hesabı açmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Mail hesabı açılması ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "EmailSifreSifirlama",
+      "patterns": [
+        "Mail şifremi unuttum",
+
+        "Email şifremi hatılayamıyorum",
+        "Şifre yenileme isteğinde bulunmak istiyorum",
+
+        "Nasıl mail şifremi sıfılayabilirim ?"
+      ],
+      "responses": [
+        "Mail şifresi sıfırlamayla ile ilgili link aşağıdadır.",
+        "Sanırım mail şifrenizi sıfırlamak istiyorsunuz. İlgili link aşağıdadır.",
+        "Mail şifresi sıfırlamayla ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "OutlookKurulumIstegi",
+      "patterns": [
+        "Outlook kurulum isteği",
+
+        "Outlook kurmak istiyorum.",
+
+        "Bilgisayara outlook kurmak istiyorum.",
+
+        "Outlook kurulum isteği oluşturmak istiyorum.",
+
+        "Nasıl outlook kurulum isteği oluşturabilirim ?"
+      ],
+      "responses": [
+        "Outlook kurulum isteği ile ilgili link aşağıdadır.",
+        "Sanırım Outlook kurulum isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Outlook kurulum isteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "SilinenEmailKurtarmaIstegi",
+      "patterns": [
+        "Silinen mail kurtarma",
+        "Silinen email kurtarma",
+
+        "Silinen mail kurtarma isteği",
+        "Silinen eposta kurtarma isteği",
+
+        "Email kurtarma isteği oluşturma",
+        "Eposta kurtarma isteği oluşturma",
+
+        "Nasıl silinen emailimi kurtarabilirim ?",
+
+        "Mail silindi. Nasıl kurtarabilirirm ?",
+
+        "Silinen mailimi kurtarmak istiyorum."
+      ],
+      "responses": [
+        "Silinen mail kurtarma isteği ile ilgili link aşağıdadır.",
+        "Sanırım silinen maili kurtarma isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Silinen emaili kurtarma isteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YeniEmailGrubuIstegi",
+      "patterns": [
+        "Yeni mail grubu",
+        "Yeni email grubu",
+
+        "Yeni email grubu isteği",
+        "Yeni eposta grubu isteği",
+
+        "Yeni mail grubu isteği oluşturmak istiyorum.",
+        "Yeni e-posta grubu isteği oluşturmak istiyorum.",
+
+        "Nasıl yeni email grubu oluşturabilirim ?",
+        "Nasıl yeni eposta grubu oluşturabilirim ?"
+      ],
+      "responses": [
+        "Yeni E-mail Grubu isteği ile ilgili link aşağıdadır.",
+        "Sanırım Yeni E-mail Grubu isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yeni E-mail Grubu isteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarKullaniciHesabiTalebi",
+      "patterns": [
+        "Bilgisayar kullanıcı hesabı",
+
+        "Bilgisayar kullanıcı hesabı talebi",
+
+        "Kullanıcı hesabı talebi oluşturmak istiyorum.",
+
+        "Nasıl bilgisayar için kullanıcı hesap talebi oluşturabilirim ?",
+        "Bilgisayar kullanıcı hesabı nasıl edinebilirim ?"
+      ],
+      "responses": [
+        "Bilgisayar Kullanıcı Hesabı Talebi ile ilgili link aşağıdadır.",
+        "Sanırım Bilgisayar Kullanıcı Hesabı talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Kullanıcı Hesabı Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+    
+    {
+      "tag": "InternetYetkiTalebi",
+      "patterns": [
+        "İnternet yetki talebi",
+  
+        "İnternet yetki talebi oluşturmak istiyorum.",
+        "İnternet için yetki almak istiyorum.",
+  
+        "İnternet yetki talebi nasıl oluşturabilirim ?",
+        "Nasıl internet yetki talebi oluştururum ?"
+      ],
+      "responses": [
+        "İnternet Yetki Talebi ile ilgili link aşağıdadır.",
+        "Sanırım İnternet yetkisi talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "İnternet Yetki Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "LocalAdminYetkiTalebi",
+      "patterns": [
+        "Local Admin Yetki Talebi",
+
+        "Local admin yetki talebi oluşturmak istiyorum.",
+
+        "Local admin yetki talebi nasıl oluşturabilirim ?",
+
+        "Nasıl local admin yetki talebi oluştururum ?"
+      ],
+      "responses": [
+        "Local Admin Yetki Talebi ile ilgili link aşağıdadır.",
+        "Sanırım local admin yetki talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Local Admin Yetki Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "MisafirlerIcinInternetErisimTalebi",
+      "patterns": [
+        "Misafir İnternet Erişim",
+
+        "Misafirler için İnternet Erişim Talebi",
+
+        "Misafir interneti talebi oluşturmak istiyorum.",
+        "Misafir için internet erişim talebi oluşturmak istiyorum.",
+
+        "Misafir için internet erişim talebi nasıl oluşturabilirim ?",
+        "Nasıl misafir internet talebi oluştururum ?"
+      ],
+      "responses": [
+        "Misafirler için İnternet Erişim Talebi ile ilgili link aşağıdadır.",
+        "Sanırım Misafirler için İnternet Erişim talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Misafirler için İnternet Erişim Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "TeamsHesabiTalebi",
+      "patterns": [
+        "Teams hesabı talebinde bulunmak istiyorum.",
+
+        "Teams hesabı talebi nasıl oluşturabilirim ?",
+        "Nasıl Teams hesabı açabilirim ?"
+      ],
+      "responses": [
+        "Teams Hesabı Talebi ile ilgili link aşağıdadır.",
+        "Sanırım Teams hesabı talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Teams Hesabı Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "TelefonYetkiDegisiklikTalebi",
+      "patterns": [
+        "Telefon Yetki Değişiklik",
+
+        "Telefon Yetki Değişiklik Talebi",
+
+        "Telefon yetki değişiklik talebinde bulunmak istiyorum.",
+
+        "Telefon yetki değişiklik talebi nasıl oluşturabilirim ?",
+        "Nasıl telefon yetkisi değiştirebilirim ?"
+      ],
+      "responses": [
+        "Telefon Yetki Değişiklik Talebi ile ilgili link aşağıdadır.",
+        "Sanırım telefon yetki değişiklik talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Telefon Yetki Değişiklik Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YeniTelefonHattiTalebi",
+      "patterns": [
+        "Telefon Hattı Talebi",
+
+        "Yeni Telefon Hattı Talebi",
+
+        "Yeni telefon hattı talebinde bulunmak istiyorum.",
+
+        "Telefon hattı talebi nasıl oluşturabilirim ?",
+
+        "Nasıl Yeni telefon hattı Talebi oluşturabilirim ?"
+      ],
+      "responses": [
+        "Yeni Telefon Hattı Talebi ile ilgili link aşağıdadır.",
+        "Sanırım yeni telefon hattı talebinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yeni Telefon Hattı Talebi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarDegisikilkIsimDegisikligiIstegi",
+      "patterns": [
+        "Bilgisayar İsim Değişikliği",
+
+        "Bilgisayar Değişiklik İsteği",
+        "Bilgisayar İsim Değişikliği İsteği",
+
+        "Bilgisayar değişikliği istiyorum.",
+        "Bilgisayar ismini değiştirmek istiyorum.",
+
+        "Bilgisayar değişiklik isteği nasıl oluşturabilirim ?",
+        "Bilgisayar isim değişiklik isteği nasıl oluşturabilirim ?",
+
+        "Nasıl bilgisayar değişikliği yapabilirim ?",
+        "Nasıl bilgisayar ismini değiştirebilirim?"
+      ],
+      "responses": [
+        "Bilgisayar Değişiklik/İsim Değişikliği İsteği ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar değişiklik/isim değişikliği isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Değişiklik/İsim Değişikliği İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarKurulumIstegi",
+      "patterns": [
+        "Bilgisayar Kurulum İsteği",
+
+        "Bilgisayar kurulum isteğinde bulunmak istiyorum.",
+
+        "Bilgisayar kurulumunu nasıl yapabilirim ?",
+
+        "Nasıl bilgisayar kurulumu isteğinde bulunabilirim ?"
+      ],
+      "responses": [
+        "Bilgisayar Kurulumu ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar kurulumu isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Kurulumu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "GeciciBilgisayarIstegi",
+      "patterns": [
+        "Geçici Bilgisayar İsteği",
+
+        "Geçici bilgisayar isteğinde bulunmak istiyorum.",
+
+        "Geçici bilgisayar isteğinde nasıl bulunabilirim ?",
+
+        "Nasıl geçici bilgisayar talep edebilirim ?"
+      ],
+      "responses": [
+        "Geçici Bilgisayar İsteği ile ilgili link aşağıdadır.",
+        "Sanırım geçici bilgisayar isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Geçici Bilgisayar İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YaziciIstegi",
+      "patterns": [
+        "Yazıcı isteğinde bulunmak istiyorum.",
+
+        "Printer isteğinde nasıl bulunabilirim ?",
+
+        "Nasıl yazıcı isteği oluşturabilirim ?"
+      ],
+      "responses": [
+        "Yazıcı(Printer) İsteği ile ilgili link aşağıdadır.",
+        "Sanırım yazıcı(printer) isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazıcı(Printer) İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "TelefonCihazDegisiklikIstegi",
+      "patterns": [
+        "Telefon Değişiklik İsteği",
+        "Cihaz Değişiklik İsteği",
+
+        "Telefon değişiklik isteğinde bulunmak istiyorum.",
+        "Cihaz değişikliği yapmak istiyorum.",
+
+        "Telefon değişiklik isteğinde nasıl bulunabilirim ?",
+
+        "Nasıl cihaz değişikliği yapabilirim ?"
+      ],
+      "responses": [
+        "Telefon Cihaz Değişiklik İsteği ile ilgili link aşağıdadır.",
+        "Sanırım telefon cihaz değişiklik isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Telefon Cihaz Değişiklik İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "TelefonŞifreIstegi",
+      "patterns": [
+        "Telefon Şifre İsteği",
+
+        "Telefon Şifresi Değiştirmek",
+
+        "Telefon şifre isteğinde bulunmak istiyorum.",
+
+        "Telefon şifre isteğinde nasıl bulunabilirim ?",
+
+        "Nasıl telefon şifresi alabilirim ?"
+      ],
+      "responses": [
+        "Telefon Şifre İsteği ile ilgili link aşağıdadır.",
+        "Sanırım telefon şifresi isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Telefon Şifre İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YaziciKurulumIstegi",
+      "patterns": [
+        " Yazıcı Kurulum İsteği",
+        " Printer Kurulum İsteği",
+
+        "Yazıcı kurulum isteği oluşturmak istiyorum.",
+
+        "Yazıcı kurulum isteği nasıl oluşturabilirim ?",
+
+        "Nasıl printer kurulum isteğinde bulunabilirim ?"
+      ],
+      "responses": [
+        "Yazıcı Kurulum İsteği ile ilgili link aşağıdadır.",
+        "Sanırım yazıcı kurulum isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazıcı Kurulum İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YazilimKaldirmaIstegi",
+      "patterns": [
+        "Yazılım Kaldırma İsteği",
+
+        "Yazılım kaldırma isteğinde bulunmak istiyorum.",
+        "Bilgisayardan yazılım kaldırmak istiyorum.",
+
+        "Yazılım kaldırma isteği nasıl oluşturabilirim ?",
+        "Nasıl bilgisayardan bir yazılımı kaldırabilirim ?"
+      ],
+      "responses": [
+        "Yazılım Kaldırma İsteği ile ilgili link aşağıdadır.",
+        "Sanırım yazılım kaldırma isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazılım Kaldırma İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YazilimKurulumIstegi",
+      "patterns": [
+        "Yazılım Kurulum İsteği",
+
+        "Yazılım kurulum isteğinde bulunmak istiyorum.",
+        "Bilgisayara yazılım kurmak istiyorum.",
+
+        "Yazılım kurulum isteği nasıl oluşturabilirim ?",
+        "Nasıl bilgisayara bir yazılım kurabilirim ?"
+      ],
+      "responses": [
+        "Yazılım Kurulum İsteği ile ilgili link aşağıdadır.",
+        "Sanırım yazılım kurulum isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazılım Kurulum İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "SunucuKurulumIstegi",
+      "patterns": [
+        "Sunucu Kurulum İsteği",
+
+        "Sunucu kurulum isteğinde bulunmak istiyorum.",
+
+        "Sunucu kurulum isteği nasıl oluşturabilirim ?",
+
+        "Nasıl sunucu kurulumu talep edebilirim ?"
+      ],
+      "responses": [
+        "Sunucu Kurulum İsteği ile ilgili link aşağıdadır.",
+        "Sanırım sunucu kurulum isteğinde bulunmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Sunucu Kurulum İsteği ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+    {
+      "tag": "BilgisayarKendiligindenKapaniyor",
+      "patterns": [
+        "Bilgisayar Kendiliğinden Kapanıyor",
+
+        "Bilgisayarım kapanıyor. Ne yapmalıyım ?",
+
+        "Bilgisayarım kendiliğinden kapanıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Bilgisayar Kapanması ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar kapanması hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Kapanması ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarKilitleniyorDonuyor",
+      "patterns": [
+        "Bilgisayarım donuyor. Ne yapmalıym ?",
+        "Bilgisayarım kilitleniyor. Ne yapmalıyım ?",
+
+        "Bilgisayarım donuyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Bilgisayar Kilitlenmesi/Donması ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar kilitlenmesi/donması hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Kilitlenmesi/Donması ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarMaviEkranHatasiVeriyor",
+      "patterns": [
+        "Mavi Ekran Hatası",
+
+        "Bilgisayar Mavi Ekran Hatası Veriyor",
+
+        "Bilgisayarım mavi ekran veriyor. Ne yapmalıym ?",
+
+        "Bilgisayarım mavi ekran oldu. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Bilgisayar Mavi Ekran Hatası ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar mavi ekran hatası hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Mavi Ekran Hatası ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "BilgisayarAcilmiyorCalismiyor",
+      "patterns": [
+        "Bilgisayarım açılmıyor. Ne yapmalıym ?",
+
+        "Bilgisayarım çalışmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Bilgisayar Açılmaması/Çalışmaması ile ilgili link aşağıdadır.",
+        "Sanırım bilgisayar açılmaması/çalışmaması hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Bilgisayar Açılmaması/Çalışmaması ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "MonitorKlavyeMouseArizasi",
+      "patterns": [
+        "Klavyem arızalı.",
+
+        "Mouse çalışmıyor. Ne yapmalıym ?",
+
+        "Monitor açılmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Monitor/Klavye/Mouse Arızası ile ilgili link aşağıdadır.",
+        "Sanırım monitor/klavye/mouse arızası hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Monitor/Klavye/Mouse Arızası ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "NotebookBataryaSarjSorunu",
+      "patterns": [
+        "Laptop şarj olmuyor.",
+
+        "Notebook şarj olmuyor. Ne yapmalıym ?",
+
+        "Batarya sorunu yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Notebook Batarya/Şarj Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım notebook batarya/şarj sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Notebook Batarya/Şarj Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "ProjeksiyonCihaziArizasi",
+      "patterns": [
+        "Projeksiyon Cihaz Arızası",
+
+        "Projeksiyon arızası alıyorum.",
+
+        "Projeksiyon cihazı çalışmıyor. Ne yapmalıyım ?",
+
+        "Projeksiyon çalışmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Projeksiyon Cihaz Arızası ile ilgili link aşağıdadır.",
+        "Sanırım Projeksiyon cihaz arızası hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Projeksiyon Cihaz Arızası ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "TarayiciArizasi",
+      "patterns": [
+        "Tarayıcı Cihaz Arızası",
+
+        "Tarayıcı arızası alıyorum.",
+
+        "Tarayıcı cihazı çalışmıyor. Ne yapmalıyım ?",
+
+        "Tarayıcı çalışmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Tarayıcı Cihaz Arızası ile ilgili link aşağıdadır.",
+        "Sanırım Tarayıcı cihaz arızası hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Tarayıcı Cihaz Arızası ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "MailAlamiyorum",
+      "patterns": [
+        "Herhangi bir mail almıyorum.",
+
+        "Mailime gönderilen iletiler bana ulaşmıyor.",
+
+        "Bana gönderilen epostaları göremiyorum. Ne yapmalıyım ?",
+
+        "Mail alamıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Mail Alamama Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım mail alamama sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Mail Alamama Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "InterneteGiremiyorum",
+      "patterns": [
+        "İnternete giremiyorum. Ne yapmalıyım ?",
+
+        "İnternet açılmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "İnternete Girilememesi ile ilgili link aşağıdadır.",
+        "Sanırım internete girilememe sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "İnternete Girilememesi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "SifremKilitlendiSorunlu",
+      "patterns": [
+        "Şifrem kilitlendi. Ne yapmalıyım ?",
+
+        "Şifrem sorunlu. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Şifre Kilitlenme Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım şifre kilitlenme sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Şifre Kilitlenme Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "DosyaAcamiyorum",
+      "patterns": [
+        "Dosya açamıyorum. Ne yapmalıyım ?",
+
+        "Dosya açmada sorun yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Dosya Açamama Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım dosya açamama sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Dosya Açamama Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "AgErisimSorunu",
+      "patterns": [
+        "Ağ Erişim Sorunu",
+
+        "Ağa erişmede sorun yaşıyorum. Ne yapmalıyım ?",
+
+        "Ağ erişim sorununu nasıl çözebilirim. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Ağ Erişim Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım ağ erişim sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Ağ Erişim Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "MicrosoftOfficeUygulamalariSorunu",
+      "patterns": [
+        "Office Uygulama Sorunu",
+
+        "Microsoft Office Uygulama Sorunu",
+
+        "Office uygulamarında genel olarak sorun yaşıyorum. Ne yapmalıyım ?",
+
+        "Wordde sorun yaşıyorum. Yardımcı olabilir misiniz ?",
+        "Excelde sorun yaşıyorum. Yardımcı olabilir misiniz ?",
+        "Powerpointde sorun yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Microsoft Office Uygulamaları Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım Microsoft Office uygulamaları sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Microsoft Office Uygulamaları Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "OutlookMailSorunu",
+      "patterns": [
+        "Mail sorunu yaşıyorum.",
+
+        "Maile girerken sorun yaşıyorum. Ne yapmalıyım ?",
+
+        "Outlook üzerinde problem yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Outlook/Mail Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım Outlook/Mail sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Outlook/Mail Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "SkypeTeamsZoomProblemi",
+      "patterns": [
+        "Skype girişte sorun yaşıyorum.",
+
+        "Teams kullanırken problem yaşıyorum. Ne yapmalıyım ?",
+
+        "Zoomda problem var. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Skype/Teams/Zoom Problemi ile ilgili link aşağıdadır.",
+        "Sanırım Skype/Teams/Zoom problemi hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Skype/Teams/Zoom Problemi ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "VpnBaglantiSorunu",
+      "patterns": [
+        "VPN Bağlantı Sorunu",
+
+        "VPN bağlanmada sorun yaşıyorum. Ne yapmalıyım ?",
+
+        "VPN ile bağlantı kuramıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "VPN Bağlantı Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım VPN bağlantı sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "VPN Bağlantı Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "WindowsLisansSorunu",
+      "patterns": [
+        "Windows Lisans Sorunu",
+
+        "Windows Lisans Sorunu",
+
+        "Windows lisansım yok. Ne yapmalıyım ?",
+
+        "Windows lisansı edinmek istiyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Windows Lisans Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım Windows lisans sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Windows Lisans Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "IntranetPortalaGirisYapamiyorum",
+      "patterns": [
+        "İntranet Portal Giriş",
+
+        "Portal giriş yapamıyorum.",
+
+        "İntranet portalına giriş yapamıyorum.",
+
+        "İntranet portalına giriş yapamıyorum. Ne yapmalıyım ?",
+
+        "İntranet portalına giriş yaparken sorun yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "İntranet Portal Giriş Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım intranet portal giriş sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "İntranet Portal Giriş Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "SunucuyaOrtakAlanaErisimSorunu",
+      "patterns": [
+        "Sunucuya Erişim Sorunu",
+
+        "Ortak Alana Erişim Sorunu",
+
+        "Sunucuya erişemiyorum. Ne yapmalıyım ?",
+
+        "Ortak alana erişmede sorunla karşılaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Sunucuya/Ortak Alana Erişim Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım sunucuya/ortak alana erişim sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Sunucuya/Ortak Alana Erişim Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "CepTelefonuInternetSorunu",
+      "patterns": [
+        "Cep Telefonu İnternet",
+
+        "Telefon İnternet Sorunu",
+
+        "Cep telefonunda internete erişemiyorum. Ne yapmalıyım ?",
+
+        "Telefonla internete bağlanamıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Cep Telefonu İnternet Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım cep telefonu internet sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Cep Telefonu İnternet Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "CepTelefonuMailSorunu",
+      "patterns": [
+        "Cep Telefonu Mail",
+
+        "Telefon Mail Sorunu",
+
+        "Cep telefonunda mail kullanamıyorum. Ne yapmalıyım ?",
+
+        "Telefonla maile giremiyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Cep Telefonu Mail Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım cep telefonu mail sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Cep Telefonu Mail Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "DahiliTelefonCalismiyor",
+      "patterns": [
+        "Telefonum çalışmıyor",
+
+        "Dahili telefon çalışmıyor",
+
+        "Telefonum açılmıyor. Ne yapmalıyım ?",
+
+        "Dahili telefonum çalışmıyor. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Dahili Telefonun Çalışmama Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım dahili telefonun çalışmama sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Dahili Telefonun Çalışmama Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "CiktiAlamiyorum",
+      "patterns": [
+        "Çıktı alamıyorum. Ne yapmalıyım ?",
+
+        "Çıktı yazdırma konusunda sorun yaşıyorum. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Çıktı Alamama Sorunu ile ilgili link aşağıdadır.",
+        "Sanırım çıktı alamama sorunu hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Çıktı Alamama Sorunu ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YaziciArizasi",
+      "patterns": [
+        "Yazıcı arızası var. Ne yapmalıyım ?",
+
+        "Priner arızalandı. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Yazıcı Arızası ile ilgili link aşağıdadır.",
+        "Sanırım yazıcı arızası hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazıcı Arızası ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    },
+
+    {
+      "tag": "YaziciyaKagitSikisti",
+      "patterns": [
+        "Yazıcıya Kağıt Sıkışması",
+
+        "Printera kağıt sıkıştı. Ne yapmalıyım ?",
+
+        "Yazıcıya kağıt sıkıştı. Yardımcı olabilir misiniz ?"
+      ],
+      "responses": [
+        "Yazıcıya Kağıt Sıkışması ile ilgili link aşağıdadır.",
+        "Sanırım yazıcıya kağıt sıkışması hakkında danışmak istiyorsunuz. İlgili link aşağıdadır.",
+        "Yazıcıya Kağıt Sıkışması ile ilgili talebinizi aşağıdaki link üzerinden oluşturabilirsiniz."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+torch
+torchvision
+nltk
+TurkishStemmer
+numpy
+psycopg2
